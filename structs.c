@@ -8,7 +8,7 @@ struct hello {
 };
 
 void returnStruct(struct hello *f) {
-  printf("%s costs $%i\n", f->s, f->i);
+  printf("%s costs %d\n", f->s, f->i);
 }
 
 struct hello * heapStruct(char *a, int b) {
