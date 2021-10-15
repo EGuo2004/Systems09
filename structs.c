@@ -22,9 +22,9 @@ struct hello * heapStruct(char *a, int b) {
 }
 
 int main() {
-  struct hello hi1 = heapStruct("Tear of the Goddess", 400);
+  struct hello * hi1 = heapStruct("Tear of the Goddess", 400);
   returnStruct(&hi1);
 
-  struct hello hi2 = heapStruct("Long Sword", 350);
+  struct hello * hi2 = heapStruct("Long Sword", 350);
   returnStruct(&hi2);
 }
